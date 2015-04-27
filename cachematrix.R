@@ -14,7 +14,7 @@
 makeCacheMatrix <- function(x=matrix()) {
   m <- NULL
     set <- function(v,nr,nc) {
-     
+##v vector of elements,nr,nc are the dimensions which should be same(square matrix)
       x<<- matrix(v,nr,nc)
             m <<- NULL
   }
